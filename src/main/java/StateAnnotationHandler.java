@@ -50,7 +50,7 @@ public class StateAnnotationHandler extends AbstractProcessor {
 
                             processingEnv.getMessager().printMessage(Diagnostic.Kind.WARNING, "Found state: " + robotModeName + " in package " + robotModePackage);
 
-                            FieldSpec stateCommand = FieldSpec.builder(Command.class, Character.toLowerCase(robotModeName.charAt(0)) + robotModeName.substring(1), Modifier.PUBLIC, Modifier.STATIC).build();
+                            FieldSpec stateCommand = FieldSpec.builder(element.asType().getClass(), Character.toLowerCase(robotModeName.charAt(0)) + robotModeName.substring(1), Modifier.PUBLIC, Modifier.STATIC).build();
                             stateInitializer.addStatement("RobotStates.$N = new $T()", stateCommand, element.asType());
 
                             stateClass.addField(stateCommand);
