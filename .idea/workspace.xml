@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab2ca80f-1636-4a8b-9e9f-18f3aae36460" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
@@ -22,6 +23,9 @@
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnnotationHandlers/StateAnnotationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnnotationHandlers/StateAnnotationHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnnotationHandlers/TransitionAnnotationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnnotationHandlers/TransitionAnnotationHandler.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> origin/main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,8 +180,12 @@
       <workItem from="1760579379018" duration="41000" />
       <workItem from="1760579477766" duration="28000" />
       <workItem from="1760579900236" duration="38000" />
+<<<<<<< HEAD
       <workItem from="1760580288855" duration="66000" />
       <workItem from="1760580384503" duration="29000" />
+=======
+      <workItem from="1760580288855" duration="10000" />
+>>>>>>> origin/main
     </task>
     <servers />
   </component>
@@ -185,6 +193,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WpiLibVersionService">
+<<<<<<< HEAD
     <option name="lastChecked" value="20251015220623" />
+=======
+    <option name="lastChecked" value="20251015220449" />
+>>>>>>> origin/main
   </component>
 </project>
