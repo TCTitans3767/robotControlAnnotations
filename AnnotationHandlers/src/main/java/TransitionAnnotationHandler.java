@@ -6,6 +6,8 @@ import edu.wpi.first.wpilibj2.command.Command;
 
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.RoundEnvironment;
+import javax.annotation.processing.SupportedAnnotationTypes;
+import javax.annotation.processing.SupportedSourceVersion;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.*;
 import javax.tools.Diagnostic;
@@ -29,7 +31,7 @@ public class TransitionAnnotationHandler extends AbstractProcessor {
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
         Optional<? extends TypeElement> annotationOptional =
                 annotations.stream()
-                        .filter((te) -> te.getSimpleName().toString().equals("annotations.Transition"))
+                        .filter((te) -> te.getSimpleName().toString().equals("Transition"))
                         .findFirst();
 
         if (!annotationOptional.isPresent()) {

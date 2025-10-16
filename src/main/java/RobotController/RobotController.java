@@ -32,7 +32,7 @@ public class RobotController extends SubsystemBase {
         currentMode.schedule();
     }
 
-    public static void setCurrentDriveMode(Command newMode) {
+    public static void setDriveModeCommand(Command newMode) {
         if (currentDriveMode != newMode && currentDriveMode != null) {
             currentDriveMode.cancel();
         }
