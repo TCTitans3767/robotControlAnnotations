@@ -1,2 +1,2 @@
-StateAnnotationHandler
-TransitionAnnotationHandler
+AnnotationHandlers.StateAnnotationHandler
+AnnotationHandlers.TransitionAnnotationHandler
