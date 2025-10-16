@@ -77,6 +77,6 @@ public class StateAnnotationHandler extends AbstractProcessor {
 
     @Override
     public Set<String> getSupportedAnnotationTypes() {
-        return Set.of("frc.robot.utils.State");
+        return Set.of("robotControlAnnotations.State");
     }
 }
