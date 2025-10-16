@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab2ca80f-1636-4a8b-9e9f-18f3aae36460" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StateAnnotationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnnotationHandlers/StateAnnotationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TransitionAnnotationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnnotationHandlers/TransitionAnnotationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/services/javax.annotation.processing.Processor" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/javax.annotation.processing.Processor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +138,7 @@
       <workItem from="1760573867267" duration="518000" />
       <workItem from="1760574572389" duration="260000" />
       <workItem from="1760575476831" duration="129000" />
+      <workItem from="1760575716131" duration="16000" />
     </task>
     <servers />
   </component>
@@ -148,6 +146,6 @@
     <option name="version" value="3" />
   </component>
   <component name="WpiLibVersionService">
-    <option name="lastChecked" value="20251015204436" />
+    <option name="lastChecked" value="20251015204835" />
   </component>
 </project>
