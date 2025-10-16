@@ -31,7 +31,7 @@ public class StateAnnotationHandler extends AbstractProcessor {
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
         Optional<? extends TypeElement> annotationOptional =
                 annotations.stream()
-                        .filter((te) -> te.getSimpleName().toString().equals("State"))
+                        .filter((te) -> te.getSimpleName().toString().equals("annotations.State"))
                         .findFirst();
 
         if (!annotationOptional.isPresent()) {
@@ -77,6 +77,6 @@ public class StateAnnotationHandler extends AbstractProcessor {
 
     @Override
     public Set<String> getSupportedAnnotationTypes() {
-        return Set.of("robotControlAnnotations.State");
+        return Set.of("robotControlAnnotations.annotations.State");
     }
 }
