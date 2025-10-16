@@ -77,6 +77,6 @@ public class TransitionAnnotationHandler extends AbstractProcessor {
 
     @Override
     public Set<String> getSupportedAnnotationTypes() {
-        return Set.of("frc.robot.utils.Transition");
+        return Set.of("robotControlAnnotations.Transition");
     }
 }
